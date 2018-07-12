@@ -14,7 +14,9 @@
     "test:ci": "mocha-webpack --webpack-config ./webpack/webpack.config.test.js \"src/js/**/*.spec.js\""
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "grail-component": "^1.0.5",
+    "growl": "^1.10.5",
     "jquery": "3.1.1",
     "lodash": "4.17.4",
     "react": "^16.4.1",
